@@ -1,3 +1,6 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
 .list ul {
   display: flex;
   flex-wrap: wrap;
@@ -13,4 +16,10 @@
 }
 .list-li img {
   width: 190px;
+}
+li{
+  list-style-type: none;
+ border-bottom: 1px gray solid;
+  padding: .65rem 1rem;
+  width: 100%;
 }
